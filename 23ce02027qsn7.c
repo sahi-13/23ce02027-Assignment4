@@ -5,11 +5,11 @@ int main(){
     if (age<5)
     printf("Free ticket");
     if(age>=5&&age<13)
-    printf("20");
+    printf("Ticket cost=20");
     if(age>=13&&age<60)
-    printf("50");
+    printf("Ticket cost=50");
     if(age>=60)
-    printf("40");
+    printf("Ticket cost=40");
     return 0;
 
 }
