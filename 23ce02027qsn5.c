@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int a,b,c,d,x;
-    printf("Enter a number:");
+    printf("Enter a 3-digit number:");
     scanf("%d",&x);
     a=x/100;
     b=(x-(a*100))/10;
